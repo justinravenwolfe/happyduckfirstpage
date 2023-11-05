@@ -43,10 +43,12 @@ ul li a{
     position: relative; 
 }
 #label{
-    position: fixed;
+    position: relative;
     margin-top: -12vh; 
     font-size: 2em;
     background-color: aqua;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw; 
+    padding-left: 2vw;
+    padding-top: 0.0001vh;
+    padding-bottom: 0.0001vh;
+    width: 14vw;
 }
