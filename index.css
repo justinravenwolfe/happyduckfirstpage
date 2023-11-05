@@ -52,3 +52,6 @@ ul li a{
     padding-bottom: 0.0001vh;
     width: 14vw;
 }
+#nav-scroll{
+    float: left; 
+}
