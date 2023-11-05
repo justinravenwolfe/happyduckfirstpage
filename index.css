@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: gray; 
+    width: 100%; 
+    padding-top: 1.5vh; 
+    padding-bottom: 1.5vh; 
+    padding-left: 1.5vw;
+    padding-right: 1.5vw; 
+}
+#links{
+    float: right; 
+    margin-left: 50%; 
+}
+.links{
+    margin: 0.5vw; 
+}
+#link-list{
+    list-style-type:none; 
+}
+ul li{
+    display: inline-block;
+    margin: 1vw;  
+}
+ul li a{
+    color: white; 
+    text-decoration: underline; 
+    font-size: 1.5em; 
+
+}
+#logotxt{
+    background-color: white; 
+    padding-top: 1vh; 
+    padding-bottom: 1vh; 
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#hero-img{
+    width: 100vw;
+    height: 40vh; 
+}
+#hero{
+    position: relative; 
+}
+#label{
+    position: fixed;
+    margin-top: -12vh; 
+    font-size: 2em;
+    background-color: aqua;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw; 
+}
