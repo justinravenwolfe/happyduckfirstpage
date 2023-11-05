@@ -55,3 +55,9 @@ ul li a{
 #nav-scroll{
     float: left; 
 }
+#large_pic{ 
+  position: relative;
+    width: 100vw;
+    height:60vh;  
+}
+
