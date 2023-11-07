@@ -1,15 +1,18 @@
+
 body{
-    background-color:#e0e0e0;
+    background-color: #BAD7F2;
+    font-family: Arial, sans-serif;
 }
 header{
     display: flex;
     flex-direction: row;
-    background-color: gray; 
+    background-color: #2F2F2F; 
     width: 100%; 
     padding-top: 1.5vh; 
     padding-bottom: 1.5vh; 
     padding-left: 1.5vw;
     padding-right: 1.5vw; 
+    
 }
 #links{
     float: right; 
@@ -45,12 +48,18 @@ ul li a{
 #hero{
     position: relative; 
 }
+#label_hero{
+    margin-top: -12vh; 
+    font-size: 2em;
+    padding: 0.2%; 
+
+}
 #label{
     position: relative;
     margin-top: 50vh; 
     transform: translateX(55%);
     font-size: 2em;
-    background-color: aqua;
+    background-color: #FDF5BF;
     padding-left: 2vw;
     padding-top: 0.0001vh;
     padding-bottom: 0.0001vh;
@@ -74,36 +83,37 @@ ul li a{
     width: 90vw; 
     float: right; 
 }
+/*just realized what line was making those images not shift and deleted it<-justify-content:center was the issue*/
 #pic_table .images{
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row; 
-    margin-top: 10vh;
-    justify-content: center;
+    margin-top: -70vh;
     width: 90vw;
+    justify-content: right; 
+    transform: translateX(8%);
     float: right; 
 }
 #pic_table img{ 
     padding: 0; 
     margin: 0; 
     display: inline-block;
-    width: 30vw;
+    width: 35vw;
     height: 40vh;  
-    margin: 1%; 
-   
+    margin: 1%;  
     
 }
 #pic_table #pic_label{
     position: relative;
     margin-top: 38vh; 
     color: black;
-    background-color: aqua; 
+    background-color: #FDF5BF; 
     transform: translateX(-400%);
     font-weight: bold;
     padding: 0.1%;
 }
 #footer{
-    margin-top: 90vh; 
+    margin-top: 200vh; 
 }
 #footer li{
     text-decoration: underline;
@@ -118,20 +128,24 @@ ul li a{
 #Sec1{
     border-right: solid black 1px; 
     height: 15vh;
+    padding-right: 1%; 
 }
 #Sec2{
     margin-left: -9vw;  
     border-right: solid black 1px; 
     height: 15vh;
+    padding-right: 1%; 
 }
 #Sec3{
- margin-top: 90vh; 
+ margin-top: 30vh; 
  border-right: solid black 1px; 
  height: 60vh;
+ padding-right: 1%; 
 }
 #Sec4{
     margin-top: 8vh; 
     transform: translateX(-35%);
     border-right: solid black 1px; 
     height: 15vh;
+    padding-right: 1%; 
 }
