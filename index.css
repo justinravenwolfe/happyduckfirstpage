@@ -3,6 +3,9 @@ body{
     background-color: #BAD7F2;
     font-family: Arial, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -31,7 +34,7 @@ ul li{
 ul li a{
     color: white; 
     text-decoration: underline; 
-    font-size: 1.5em; 
+    font-size: 1.2em; 
 
 }
 #logotxt{
@@ -88,7 +91,7 @@ ul li a{
     display: flex; 
     flex-wrap: wrap;
     flex-direction: row; 
-    margin-top: -70vh;
+    margin-top: 10vh;
     width: 90vw;
     justify-content: right; 
     transform: translateX(8%);
@@ -137,14 +140,13 @@ ul li a{
     padding-right: 1%; 
 }
 #Sec3{
- margin-top: 30vh; 
+ margin-top: 70vh; 
  border-right: solid black 1px; 
  height: 60vh;
  padding-right: 1%; 
 }
 #Sec4{
     margin-top: 8vh; 
-    transform: translateX(-35%);
     border-right: solid black 1px; 
     height: 15vh;
     padding-right: 1%; 
