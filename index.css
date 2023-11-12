@@ -177,4 +177,16 @@ PropertyName: Value (#- px, vw,vw,em), color (rgb, rgba, "blue"), dotted, dashed
         padding-left: 0.4vw;
         padding-right: 0.4vw;
     }
+    #links{
+        float: right; 
+        margin-left: 0;
+    }
+    ul li{
+        display: block;
+        margin: 0.1vw;  
+    }
+    ul li a{
+        font-size: 0.8em; 
+    
+    }
 }
