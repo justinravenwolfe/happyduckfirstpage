@@ -189,4 +189,64 @@ PropertyName: Value (#- px, vw,vw,em), color (rgb, rgba, "blue"), dotted, dashed
         font-size: 0.8em; 
     
     }
+    #aboutme p{
+        width: 60vw; 
+    }
+    #large_pic{ 
+          width: 60vw;
+          height:60vh;  
+          float: right; 
+      }
+      #picture_big{
+          width: 50vw; 
+          float: right; 
+      }
+      #Sec2{
+        margin-left: -90%; 
+         
+    }
+    #label{
+        font-size: 1em;
+        padding: 0; 
+        width: 30vw;
+        height: 10vh;
+        display: block;
+
+
+    }
+    #label h2{
+        transform: translateY(-50%);
+    }
+    #pic_table img{ 
+        margin-top: 0.001vh;
+        margin-bottom: 0.001vh;
+        margin-left: 0.001vw;
+        margin-right: 0.001vw;
+        display: block;
+        width: 60vw;
+        height: 40vh;  
+        
+    }
+    #footer{
+        margin-top: 500vh; 
+    }
+    #footer li{
+        text-decoration: underline;
+        transform: translateX(25vw); 
+        margin: 5%; 
+        font-size: 1.5em; 
+    }
+    #Sec4{
+        margin-top: -1vh; 
+    }
+    #pic_table .images{
+        margin-top: -60vh;
+        width: 80vw;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom:0;
+        justify-content: right; 
+        transform: none;
+        float: right; 
+    }
 }
