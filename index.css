@@ -82,30 +82,7 @@ ul li a{
     height:60vh;  
     float: right; 
 }
-#picture_big{
-    width: 90vw; 
-    float: right; 
-}
-/*just realized what line was making those images not shift and deleted it<-justify-content:center was the issue*/
-#pic_table .images{
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row; 
-    margin-top: 10vh;
-    width: 90vw;
-    justify-content: right; 
-    transform: translateX(8%);
-    float: right; 
-}
-#pic_table img{ 
-    padding: 0; 
-    margin: 0; 
-    display: inline-block;
-    width: 35vw;
-    height: 40vh;  
-    margin: 1%;  
-    
-}
+
 #pic_table #pic_label{
     position: relative;
     margin-top: 38vh; 
@@ -162,6 +139,67 @@ PropertyName: Value (#- px, vw,vw,em), color (rgb, rgba, "blue"), dotted, dashed
 PropertyName: Value (#- px, vw,vw,em), color (rgb, rgba, "blue"), dotted, dashed) ; <- Terminate with semicolon
 }
 */
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+  ul li{
+    margin: 0.3vw;  
+}
+ul li a{
+    font-size: 1.6em; 
+}
+#links{
+    float: none;
+    display: inline-block;
+    margin-left: -0.02%;
+    transform: translateX(30vw);
+}
+#picture_big{
+    width: 90vw; 
+    float: right; 
+}
+/*just realized what line was making those images not shift and deleted it<-justify-content:center was the issue*/
+#pic_table .images{
+    margin-top: -60vh;
+    width: 90vw;
+    justify-content: right; 
+    transform: translateX(15%);
+    float: right; 
+}
+#pic_table img{ 
+    padding: 0; 
+    margin: 0; 
+    display: inline-block;
+    width: 50vw;
+    height: 40vh;  
+    margin: 1%;  
+    
+}
+#Sec1, #Sec2, #Sec3, #Sec4{
+    font-size: 2.7em; 
+}
+#footer{
+    margin-top: 600vh; 
+    font-size: 2.2em; 
+    margin-left: -2vw; 
+}
+#footer li{
+    margin: 1%; 
+}
+#Sec4{
+    margin-top: -3vh; 
+}
+#label{
+    font-size: 2.2em;
+    padding: 0; 
+    width: 30vw;
+    height: 10vh;
+    display: block;
+
+
+}
+#label h2{
+    transform: translateY(-50%);
+}
+}
 @media only screen and  (max-width: 450px){
     header{
         width: 110vw; 
