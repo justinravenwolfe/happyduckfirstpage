@@ -14,6 +14,7 @@ background-color: navy;
 color: white;
 padding: 1%; 
 }
+
 html{
     scroll-behavior: smooth !important;
 }
@@ -23,9 +24,9 @@ html{
 body{
     background-color: rgba(255,200,240,0.5); 
 }
+
+
 #grid_img{
-    width: 50%;
-    height: 50%;
     position: relative;
 }
 #footer{
@@ -37,6 +38,7 @@ body{
     border-right: 3px solid black !important; 
 
 }
+
 #side_link h2{
     margin-top: 8%; 
     margin-bottom: auto !important; 
@@ -58,5 +60,8 @@ body{
             margin-top: 2%;
             font-size: 1.5em;
             color: navy; 
+        }
+        #about-txt{
+            font-size: 1em; 
         }
 }
