@@ -1,4 +1,8 @@
-HTML
+Title: Happy Duck First Page
+Author:Justin Ramirez/Varsity Tutors
+Deployment Link: https://justinravenwolfe.github.io/happyduckfirstpage/
+File Link: git@github.com:justinravenwolfe/happyduckfirstpage.git
+
 1) Purpose of Assignment and Objectives
 Display a portfolio and give an opportunity for recruiters to see my programming skills.
 
@@ -22,4 +26,4 @@ Display a knowledge of css, media queries and flexbox
 -Displays and links to top projects 
 -Links scroll dynamically and smoothly 
 -Gives contact information
--Had aboutme info 
+-Has aboutme info 
